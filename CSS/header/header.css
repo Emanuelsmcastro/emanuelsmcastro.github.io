@@ -12,6 +12,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease;
+    position: relative;
 }
 
 .header-logo{
@@ -35,7 +36,7 @@
 }
 
 .header-bg::after{
-    bottom: -30px;
+    bottom: 0px;
     rotate: 90deg;
 }
 
@@ -147,10 +148,6 @@
 
     .header-bg::after{
         bottom: -5px;
-    }
-
-    .header-bg::after{
-        bottom: -25px;
     }
 }
 
