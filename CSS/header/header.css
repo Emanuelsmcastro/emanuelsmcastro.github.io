@@ -43,9 +43,9 @@
     display: grid;
     grid-template-columns: auto 1fr;
     place-items: center;
-    height: 100%;
+    height: 600px;
     max-height: calc(100% - 75px);
-    gap: 40px;
+    gap: 10px;
     box-sizing: border-box;
 }
 
@@ -162,7 +162,7 @@
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 400px){
     .header-description-content{
         max-width: 150px;
     }
