@@ -1,0 +1,24 @@
+
+@keyframes anime-bg{
+    0%{
+        background-position: 0% 100%;
+    }
+
+    50%{
+        background-position: 50% 100%;
+    }
+
+    100%{
+        background-position: 0% 100%;
+    }
+}
+
+@keyframes animation-width {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}

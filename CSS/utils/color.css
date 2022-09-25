@@ -1,0 +1,39 @@
+:root{
+    /* Colors */
+    --c0: #FFFFFF;
+    --c1: #3F3CA6;
+    --c2: #2D3073;
+    --c3: #1C2540;
+    --c4: #111826;
+    --c5: #405173;
+    --c6: #c6c6c6;
+    --c7: #000000;
+
+    /* Background */
+    --gradient: linear-gradient(45deg, #3F3CA6, #2D3073, #1C2540, #111826, #405173);
+    --bg1: rgba(63, 60, 166, .25);;
+}
+
+.c0{
+    color: var(--c0);
+}
+
+.c1{
+    color: var(--c1);
+}
+
+.c2{
+    color: var(--c2);
+}
+
+.c3{
+    color: var(--c3);
+}
+
+.c4{
+    color: var(--c4);
+}
+
+.c5{
+    color: var(--c5);
+}

@@ -1,0 +1,106 @@
+.font-1{
+    font-family: "Poppins", sans-serif;
+}
+
+.font-2-400{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.font-2-900{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.font-3{
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+/* Sizes */
+.size-1{
+    font-size: 1em;
+}
+
+.size-1_5{
+    font-size: 1.5em;
+}
+
+.size-2{
+    font-size: 2em;
+}
+
+.size-3{
+    font-size: 3em;
+}
+
+.size-4{
+    font-size: 4.375em;
+}
+/*-------------------*/
+
+@media (max-width: 800px){
+    .size-1{
+        font-size: calc(1em / 1.2);
+    }
+    
+    .size-1_5{
+        font-size: calc(1.5em / 1.2);
+    }
+    
+    .size-2{
+        font-size: calc(2em / 1.2);
+    }
+    
+    .size-3{
+        font-size: calc(3em / 1.2);
+    }
+    
+    .size-4{
+        font-size: calc(4.375em / 1.2);
+    }
+}
+
+@media (max-width: 600px){
+    .size-1{
+        font-size: calc(1em / 1.5);
+    }
+    
+    .size-1_5{
+        font-size: calc(1.5em / 1.5);
+    }
+    
+    .size-2{
+        font-size: calc(2em / 1.5);
+    }
+    
+    .size-3{
+        font-size: calc(3em / 1.5);
+    }
+    
+    .size-4{
+        font-size: calc(4.375em / 1.5);
+    }
+}
+
+@media (max-width: 400px){
+    .size-1{
+        font-size: calc(1em / 1.8);
+    }
+    
+    .size-1_5{
+        font-size: calc(1.5em / 1.8);
+    }
+    
+    .size-2{
+        font-size: calc(2em / 1.8);
+    }
+    
+    .size-3{
+        font-size: calc(3em / 1.8);
+    }
+    
+    .size-4{
+        font-size: calc(4.375em / 1.8);
+    }
+}

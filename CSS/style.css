@@ -1,0 +1,16 @@
+/* Global */
+@import "./global/global.css";
+
+/* Header */
+@import "./header/header.css";
+
+/* About */
+@import "/CSS/about/about.css";
+
+/* Footer */
+@import "./footer/contact.css";
+
+/* Utils */
+@import "./utils/font.css";
+@import "./utils/color.css";
+@import "./utils/animations.css";

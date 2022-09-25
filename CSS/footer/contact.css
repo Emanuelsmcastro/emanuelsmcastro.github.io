@@ -1,0 +1,61 @@
+.footer-bg{
+    background: linear-gradient(var(--c6)0 150px, var(--c7) 150px 150px);
+}
+
+.footer-content{
+    padding: 60px 0;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+}
+
+.mail::before,
+.tel::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.mail::before{
+    background: url("../../img/icons/email.svg") no-repeat;
+}
+
+.tel::before{
+    background: url("../../img/icons/telefone.svg") no-repeat;
+
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 1000px){
+    .footer-bg{
+        background: linear-gradient(var(--c6)0 100px, var(--c7) 100px 150px);
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-img{
+        display: none;
+    }
+    .footer-content{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .footer-bg{
+        background: var(--c7);
+    }
+}
