@@ -1,7 +1,7 @@
 .header-bg{
     box-sizing: border-box;
     width: 100vw;
-    height: 100vh;
+    height: 650px;
     max-width: 100%;
     max-height: 100%;
     background: url("../../img/dec/bottom-right.svg") ,var(--gradient);
@@ -35,7 +35,7 @@
 }
 
 .header-bg::after{
-    bottom: -10px;
+    bottom: -30px;
     rotate: 90deg;
 }
 
@@ -128,7 +128,7 @@
 @media (max-width: 1300px) {
     .header-content{
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 0;
     }
 
     .header-description-content{
@@ -140,12 +140,6 @@
     .header-description-content{
         max-width: 300px;
     }
-}
-
-@media (max-width: 800px){
-    .header-content{
-        gap: 20px;
-    }
 
     .header-menu a img{
         width: 32px;
@@ -153,6 +147,10 @@
 
     .header-bg::after{
         bottom: -5px;
+    }
+
+    .header-bg::after{
+        bottom: -25px;
     }
 }
 
@@ -165,10 +163,6 @@
 @media (max-width: 400px){
     .header-description-content{
         max-width: 150px;
-    }
-
-    .header-content{
-        gap: 0;
     }
 
     .header-content h1{
