@@ -35,7 +35,7 @@
 }
 
 .header-bg::after{
-    bottom: -25;
+    bottom: -10px;
     rotate: 90deg;
 }
 
@@ -168,6 +168,11 @@
     }
 
     .header-content{
-        gap: 5px;
+        gap: 0;
+    }
+
+    .header-content h1{
+        align-self: center;
+        margin-bottom: 0;
     }
 }
