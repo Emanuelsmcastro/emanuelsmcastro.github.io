@@ -166,4 +166,8 @@
     .header-description-content{
         max-width: 150px;
     }
+
+    .header-content{
+        gap: 5px;
+    }
 }
